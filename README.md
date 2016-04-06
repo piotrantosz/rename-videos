@@ -1,6 +1,7 @@
 # Rename filenames of movies etc.
 
 Simple script to sort all your files using guessit lib (https://github.com/guessit-io/guessit)
+![Example](http://i.imgur.com/YvnLA8G.gif)
 
 ### Installation
 `pip install guessit` <br />
