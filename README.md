@@ -12,9 +12,9 @@ Just write path to your movie directory. Script will change also subdirectories
  with files.
 
 ### Output
-New filename will contain title + season + episode (if exists)
+New filename will contain title + season + episode (if they exist) + container in files (not in directiories) 
 
 #### Example
 `Dark.Net.S01E02.HDTV.x264-FUM[ettv]` <br />
-into <br />
+to <br />
 `Dark Net - season 1 episode 2`
