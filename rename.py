@@ -11,6 +11,7 @@ for root, subdirs, files in os.walk(mypath):
             re_f += ' - season ' + str(guess_file['season'])
             if 'episode' in guess_file:
                 re_f += ' episode ' + str(guess_file['episode'])
+        re_f += '.' + guess_file['container']
         os.rename(os.path.join(root, f), os.path.join(root, re_f))
 
     for d in subdirs:
